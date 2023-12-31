@@ -16,8 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.cardetails.service.CarService;
 
-
-@CrossOrigin(origins = "http://localhost:8083")
 @RestController
 @RequestMapping("/cardetails")
 public class CarDetailController {
